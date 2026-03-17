@@ -148,3 +148,8 @@ GitHub: https://github.com/VIJAY33420
 ## Deployment Status
 
 Latest deployment optimized for Vercel with clean dependency management.
+
+### Vercel Deployment Guide
+1. Ensure the project is linked to the GitHub repository.
+2. Vercel will auto-detect the npm workspace at the root.
+3. The build command is `npm run build` as defined in `package.json`.
